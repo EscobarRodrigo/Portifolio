@@ -78,7 +78,7 @@ main {
 .introduction h1 {
 
     color: white;
-    font-size: 82px;
+    font-size: 40px;
     margin-top: 72px;
     
 }
@@ -205,6 +205,11 @@ text-decoration: none;
     width: 500px;
 }
 
+.works .infos h1{
+
+    font-size: 26px;
+}
+
 
 .works .images {
     width: 100%;
@@ -237,6 +242,43 @@ text-decoration: none;
     padding-bottom: 20px;
 }
 
+.main-pix {
+
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(12px);
+    width: 100%;
+    padding: 24px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 50;
+ 
+}
+
+
+.main-pix ul {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 42px;
+    list-style: none;
+
+}
+
+
+.main-pix ul a {
+
+    color: rgba(255,255,255,0.5);
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+.main-pix ul a:hover { /*mouse por cima*/
+    color: white;
+
+}
 
 .pix {
     
@@ -246,7 +288,7 @@ text-decoration: none;
 }
 
 .txt { 
-    margin-top: 50px;
+    margin-top: 80px;
     text-align: center;
     color: white;
     font-size: 32px;
@@ -272,8 +314,9 @@ text-decoration: none;
 
 .piximg{
     margin: 30px;
-    width: 12%;
-    
+    width: 20%;
+    border-radius: 10px;
+  
 }
 
 .socialspix{
@@ -287,6 +330,7 @@ text-decoration: none;
 .socialspix img{
     width: 60px;
     opacity: 0.5;
+    
 }
 
 .socialspix  img:hover {
