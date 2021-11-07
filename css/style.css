@@ -239,6 +239,7 @@ text-decoration: none;
 
 
 .pix {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -274,3 +275,23 @@ text-decoration: none;
     width: 12%;
     
 }
+
+.socialspix{
+    margin-top: 32px;
+} 
+
+.socialspix a {
+    text-decoration: none;
+    }
+
+.socialspix img{
+    width: 60px;
+    opacity: 0.5;
+}
+
+.socialspix  img:hover {
+        /* width: 90px; alteração de tamanho ao passar o mouse */
+        opacity: 1;
+        }
+
+        
